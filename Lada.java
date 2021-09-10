@@ -10,11 +10,6 @@ import java.util.Scanner;
  * @author hallgato
  */
 public class Lada {
-
-    String aranyLadaS = "Én rejtem a kincset.";
-    String ezustLadaS = "Nem én rejtem a kincset.";
-    String bronzLadaS = "Az arany láda hazudik !";
-    
     int valasz;
     
     int arany;
@@ -49,10 +44,8 @@ public class Lada {
     }
     
     public void uiFelulet(){
-        System.out.println("         arany                  ezüst                       bronz         ");
-        System.out.println("          ____                  ____                        ____         ");
-        System.out.println("         | 1 |                  | 2 |                       | 3 |        ");
-        System.out.println("Én rejtem a kincset.   Nem én rejtem a kincset.   Az arany láda hazudik !");
+        System.out.println("         arany                  ezüst                       bronz        \n          ____                  ____                        ____         \n         | 1 |                  | 2 |                       | 3 |        \nÉn rejtem a kincset.   Nem én rejtem a kincset.   Az arany láda hazudik !");
+
     }
     
     public void ellenorzes(){
